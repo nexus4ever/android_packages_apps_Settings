@@ -157,5 +157,5 @@ public class Settings extends SettingsActivity {
     public static class SystemSettings extends SettingsActivity { /* empty */ }
     public static class PureNexusSettingsActivity extends SettingsActivity { /* empty */ }
     public static class PerformanceSettingsActivity extends SettingsActivity { /* empty */ }
-
+    public static class SuperSUActivity extends SettingsActivity { /* empty */ }
 }
