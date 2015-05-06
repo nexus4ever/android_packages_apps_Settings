@@ -67,6 +67,8 @@ public class DeviceInfoSettings extends SettingsPreferenceFragment implements In
     private static final String KEY_DEVICE_FEEDBACK = "device_feedback";
     private static final String KEY_N4E_CHANGELOG = "n4e_changelog";
     private static final String KEY_N4E_LOGO = "n4e_logo";
+    private static final String KEY_MOD_BUILD_DATE = "build_date";
+    private static final String KEY_NEXUS_VERSION = "nexus_version";
 
     static final int TAPS_TO_BE_A_DEVELOPER = 7;
 
@@ -117,6 +119,9 @@ public class DeviceInfoSettings extends SettingsPreferenceFragment implements In
         findPreference(KEY_KERNEL_VERSION).setSummary(DeviceInfoUtils.getFormattedKernelVersion());
         findPreference(KEY_N4E_CHANGELOG).setEnabled(true);
         findPreference(KEY_N4E_LOGO).setEnabled(true);
+        setValueSummary(KEY_MOD_BUILD_DATE, "ro.build.date");
+        setValueSummary(KEY_NEXUS_VERSION, "ro.nexus4ever.version");
+        findPreference(KEY_NEXUS_VERSION).setEnabled(true);
 
         if (!SELinux.isSELinuxEnabled()) {
             String status = getResources().getString(R.string.selinux_status_disabled);

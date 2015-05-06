@@ -24,6 +24,16 @@
     <string name="n4e_settings_title">Personalization</string>
     <string name="header_category_n4e">NeXus4ever Settings</string>
 
+<!-- Device Info Settings -->
+    <!-- Nexus version -->
+    <string name="nexus_version">NeXus4ever version</string>
+    <string name="nexus_version_default">Unknown</string>
+    <!-- Build date -->
+    <string name="build_date">Build date</string>
+    <string name="build_date_default">2014-01-01-0000</string>
+    <!-- Model Name -->
+    <string name="model_name">Model name</string>
+
     <!-- Development Settings -->
     <!-- Dev Options Enabled by Default -->
     <string name="show_dev_already_enabled">No Need, Development settings are enabled by default.</string>
