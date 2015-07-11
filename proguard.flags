@@ -22,6 +22,7 @@
 -keep class com.android.settings.display.*FragmentForSetupWizard
 -keep class com.android.settings.display.NightDisplaySettings
 -keep class com.n4e.settings.**
+-keep class com.android.settings.n4e.**
 
 # Keep click responders
 -keepclassmembers class com.android.settings.inputmethod.UserDictionaryAddWordActivity {
