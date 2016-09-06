@@ -256,7 +256,7 @@ public class SettingsActivity extends SettingsDrawerActivity
             Settings.DeviceInfoSettingsActivity.class.getName(),
             Settings.AccessibilitySettingsActivity.class.getName(),
             Settings.PrintSettingsActivity.class.getName(),
-            Settings.PaymentSettingsActivity.class.getName(),
+            Settings.PaymentSettingsActivity.class.getName()
     };
 
     private static final String[] ENTRY_FRAGMENTS = {
@@ -354,7 +354,7 @@ public class SettingsActivity extends SettingsDrawerActivity
             WifiAPITest.class.getName(),
             WifiInfo.class.getName(),
             MasterClear.class.getName(),
-            NightDisplaySettings.class.getName(),
+            NightDisplaySettings.class.getName()
     };
 
 
