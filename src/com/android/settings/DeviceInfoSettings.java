@@ -125,7 +125,7 @@ public class DeviceInfoSettings extends SettingsPreferenceFragment implements In
         findPreference(KEY_BUILD_NUMBER).setEnabled(true);
         findPreference(KEY_KERNEL_VERSION).setSummary(DeviceInfoUtils.getFormattedKernelVersion());
         setValueSummary(KEY_MOD_BUILD_DATE, "ro.build.date");
-        setValueSummary(KEY_NEXUS_VERSION, "ro.purenexus.version");
+        setValueSummary(KEY_NEXUS_VERSION, "ro.nexus4ever.version");
         findPreference(KEY_NEXUS_VERSION).setEnabled(true);
 
         if (!SELinux.isSELinuxEnabled()) {
