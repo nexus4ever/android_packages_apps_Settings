@@ -17,7 +17,7 @@
 <!-- Custom Settings -->    
   <!-- Dashboard -->
     <string name="header_category_custom">Rom Control</string>
-    <string name="custom_settings_title">neXus4ever Settings</string>
+    <string name="custom_settings_title">NeXus4ever Settings</string>
 
 <!-- Development Settings -->
     <!-- Dev Options Enabled by Default -->
@@ -35,7 +35,7 @@
 
 <!-- Device Info Settings -->
     <!-- Nexus version -->
-    <string name="nexus_version">nexus4ever version</string>
+    <string name="nexus_version">NeXus4ever version</string>
     <string name="nexus_version_default">Unknown</string>
     <!-- Vendor version -->
     <string name="vendor_version">Vendor version</string>
