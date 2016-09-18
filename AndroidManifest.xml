@@ -2699,7 +2699,7 @@
             android:icon="@drawable/ic_settings_purenexus"
             android:taskAffinity="">
             <intent-filter android:priority="1">
-                <action android:name="pure.settings.PureSettings" />
+                <action android:name="n4e.settings.PureSettings" />
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
             <intent-filter>
@@ -2714,7 +2714,7 @@
             <meta-data android:name="com.android.settings.category"
                 android:value="com.android.settings.category.custom" />
             <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
-                android:value="com.pure.settings.PureSettings" />
+                android:value="com.n4e.settings.PureSettings" />
             <meta-data android:name="com.android.settings.PRIMARY_PROFILE_CONTROLLED"
                 android:value="true" />
         </activity>

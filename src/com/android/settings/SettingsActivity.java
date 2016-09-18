@@ -127,7 +127,7 @@ import com.android.settings.wifi.p2p.WifiP2pSettings;
 import com.android.settingslib.drawer.DashboardCategory;
 import com.android.settingslib.drawer.SettingsDrawerActivity;
 import com.android.settingslib.drawer.Tile;
-import com.pure.settings.PureSettings;
+import com.n4e.settings.PureSettings;
 
 import java.util.ArrayList;
 import java.util.List;
