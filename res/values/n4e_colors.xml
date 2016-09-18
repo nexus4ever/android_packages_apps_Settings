@@ -17,6 +17,8 @@
     <color name="theme_accent">@android:color/white</color>
     <color name="background_tab_pressed">#1AFFFFFF</color>
     <color name="material_pixel_blue_bright">@*android:color/material_pixel_blue_bright</color>
+    <color name="dashboard_category_title_background">@color/card_background</color>
+    <color name="selectable_card_background">@color/card_background</color>
 
     <!-- Expanded desktop -->
     <drawable name="expanded_item_bg_activated">#ffEEEEEE</drawable>
@@ -35,9 +37,9 @@
     <color name="condition_card_summary_text_color">@*android:color/primary_text_material_dark</color>
     <color name="condition_card_divider_color">@android:color/white</color>
     <color name="condition_card_first_button_text_color">@*android:color/primary_text_material_dark</color>
-<color name="condition_card_second_button_text_color">@*android:color/primary_text_material_dark</color>
+    <color name="condition_card_second_button_text_color">@*android:color/primary_text_material_dark</color>
 
     <!-- Storage Summary Title -->
-<color name="storage_summary_title_color">#ff607d8b</color>
+    <color name="storage_summary_title_color">#ff607d8b</color>
 
 </resources>
