@@ -158,5 +158,5 @@ public class Settings extends SettingsActivity {
     public static class DeviceSettings extends SettingsActivity { /* empty */ }
     public static class PersonalSettings extends SettingsActivity { /* empty */ }
     public static class SystemSettings extends SettingsActivity { /* empty */ }
-    public static class NexusSettingsActivity extends SettingsActivity { /* empty */ }
+    public static class PureSettingsActivity extends SettingsActivity { /* empty */ }
 }

@@ -133,7 +133,7 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".Settings$NexusSettings"
+        <activity android:name=".Settings$PureSettings"
             android:label="@string/header_category_n4e">
             <intent-filter android:priority="4">
                 <action android:name="com.android.settings.category.n4e" />
@@ -947,12 +947,12 @@
                 android:value="true" />
         </activity>
 
-        <activity android:name="Settings$NexusSettingsActivity"
+        <activity android:name="Settings$PureSettingsActivity"
             android:label="@string/n4e_settings_title"
             android:icon="@drawable/ic_settings_n4e"
             android:taskAffinity="">
             <intent-filter android:priority="1">
-                <action android:name="n4e.settings.NexusSettings" />
+                <action android:name="n4e.settings.PureSettings" />
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
             <intent-filter>
@@ -967,7 +967,7 @@
             <meta-data android:name="com.android.settings.category"
                 android:value="com.android.settings.category.n4e" />
             <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
-                android:value="com.n4e.settings.NexusSettings" />
+                android:value="com.n4e.settings.PureSettings" />
             <meta-data android:name="com.android.settings.PRIMARY_PROFILE_CONTROLLED"
                 android:value="true" />
         </activity>

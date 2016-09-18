@@ -26,7 +26,7 @@ LOCAL_MODULE_TAGS := optional
 
 LOCAL_SRC_FILES := \
         $(call all-java-files-under, src) \
-        $(call all-java-files-under, ../NexusSettings/src)
+        $(call all-java-files-under, ../PureSettings/src)
 
 LOCAL_RESOURCE_DIR := $(LOCAL_PATH)/res \
     frameworks/support/v7/preference/res \
@@ -34,7 +34,7 @@ LOCAL_RESOURCE_DIR := $(LOCAL_PATH)/res \
     frameworks/support/v7/appcompat/res \
     frameworks/support/v7/recyclerview/res
 
-LOCAL_RESOURCE_DIR += packages/apps/NexusSettings/res
+LOCAL_RESOURCE_DIR += packages/apps/PureSettings/res
 
 LOCAL_AAPT_FLAGS := --auto-add-overlay \
 	--extra-packages com.n4e.settings
