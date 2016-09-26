@@ -25,6 +25,7 @@
     <string name="header_category_n4e">NeXus4ever Settings</string>
     <string name="performance_settings_title">Performance Settings</string>
     <string name="supersu_title">SuperSU</string>
+    <string name="superuser_title">Superuser</string>
 
 <!-- Device Info Settings -->
     <!-- Nexus version -->
