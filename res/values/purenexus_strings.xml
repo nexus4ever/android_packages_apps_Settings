@@ -18,6 +18,7 @@
   <!-- Dashboard -->
     <string name="header_category_custom">Rom Control</string>
     <string name="custom_settings_title">NeXus4ever Settings</string>
+    <string name="performance_settings_title">Performance Settings</string>
 
 <!-- Development Settings -->
     <!-- Dev Options Enabled by Default -->
