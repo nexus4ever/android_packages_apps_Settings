@@ -23,6 +23,7 @@
     <!-- N4E Settings -->
     <string name="n4e_settings_title">Personalization</string>
     <string name="header_category_n4e">NeXus4ever Settings</string>
+    <string name="performance_settings_title">Performance Settings</string>
 
 <!-- Device Info Settings -->
     <!-- Nexus version -->
