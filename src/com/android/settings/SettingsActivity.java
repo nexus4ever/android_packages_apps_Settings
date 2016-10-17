@@ -1119,6 +1119,12 @@ public class SettingsActivity extends SettingsDrawerActivity
                         Settings.DevelopmentSettingsActivity.class.getName()),
                 showDev, isAdmin, pm);
 
+        // NeXus4ever Settings
+        boolean pnsSupported = true;
+        setTileEnabled(new ComponentName(packageName,
+                        Settings.PureNexusSettingsActivity.class.getName()),
+                pnsSupported, isAdmin, pm);
+
         // SuperUser
         boolean phhSupported = false;
         try {
