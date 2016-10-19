@@ -295,4 +295,7 @@
     <!-- Notification importance -->
     <string name="tuner_full_importance_settings">Power notification controls</string>
 
+    <!-- [CHAR LIMIT=100] Notification Importance slider: very low importance level description -->
+    <string name="notification_importance_very_low">No full screen interruption, peeking, sound, or vibration. Show at the bottom of the notification list. Hide from lock screen.</string>
+
 </resources>
