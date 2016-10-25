@@ -3049,7 +3049,7 @@
         <activity android:name="Settings$GestureSettingsActivity"
                   android:label="@string/gesture_preference_title"
                   android:icon="@drawable/ic_settings_gestures"
-                  android:enabled="@bool/config_gesture_settings_enabled">
+                  android:taskAffinity="">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="com.android.settings.SHORTCUT" />
