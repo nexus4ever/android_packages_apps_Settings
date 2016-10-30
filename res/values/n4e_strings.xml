@@ -15,6 +15,11 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
+    <!-- Changelog -->
+    <string name="changelog_title">Changelog</string>
+    <string name="changelog_summary">Since the last update</string>
+    <string name="changelog_error">Unable to load changelog</string>
+
     <!-- N4E Settings -->
     <string name="n4e_settings_title">Personalization</string>
     <string name="header_category_n4e">NeXus4ever Settings</string>

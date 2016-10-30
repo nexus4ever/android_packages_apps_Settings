@@ -32,6 +32,16 @@
                     android:targetClass="@string/additional_system_update_menu" />
         </PreferenceScreen>
 
+        <!-- N4E Logo Header -->
+        <PreferenceScreen android:key="n4e_logo"
+            android:layout="@layout/ic_settings_purenexus" />
+
+        <!-- Changelog -->
+        <PreferenceScreen android:key="n4e_changelog"
+            android:title="@string/changelog_title"
+            android:summary="@string/changelog_summary"
+            android:fragment="com.android.settings.n4e.Changelog" />
+
         <!-- Device status - launches activity -->
         <PreferenceScreen android:key="status_info"
                 android:title="@string/device_status"
