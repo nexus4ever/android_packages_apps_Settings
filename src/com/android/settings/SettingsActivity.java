@@ -134,6 +134,7 @@ import com.android.settingslib.drawer.DashboardCategory;
 import com.android.settingslib.drawer.SettingsDrawerActivity;
 import com.android.settingslib.drawer.Tile;
 import com.n4e.settings.PureSettings;
+import com.n4e.settings.fragments.HeadsUpSettings;
 
 import java.net.URISyntaxException;
 import com.n4e.settings.fragments.FlingSettings;
@@ -378,6 +379,7 @@ public class SettingsActivity extends SettingsDrawerActivity
             PulseSettings.class.getName(),
             ManageDomainUrls.class.getName(),
             AutomaticStorageManagerSettings.class.getName()
+            HeadsUpSettings.class.getName(),
     };
 
 
