@@ -2777,7 +2777,7 @@
                 <action android:name="com.android.settings.action.SETTINGS" />
             </intent-filter>
             <meta-data android:name="com.android.settings.category"
-                android:value="com.android.settings.category.custom" />
+                android:value="com.android.settings.category.n4e" />
             <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
                 android:value="com.android.settings.PerformanceSettings" />
         </activity>
@@ -2796,7 +2796,7 @@
                 <action android:name="com.android.settings.action.SETTINGS" />
             </intent-filter>
             <meta-data android:name="com.android.settings.category"
-                android:value="com.android.settings.category.custom" />
+                android:value="com.android.settings.category.n4e" />
             <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
                 android:value="com.android.settings.SuperUser" />
             <meta-data android:name="com.android.settings.PRIMARY_PROFILE_CONTROLLED"
@@ -2817,7 +2817,7 @@
                 <action android:name="com.android.settings.action.SETTINGS" />
             </intent-filter>
             <meta-data android:name="com.android.settings.category"
-                android:value="com.android.settings.category.custom" />
+                android:value="com.android.settings.category.n4e" />
             <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
                 android:value="com.android.settings.SuperSU" />
             <meta-data android:name="com.android.settings.PRIMARY_PROFILE_CONTROLLED"
@@ -3046,7 +3046,7 @@
             android:permission="android.permission.READ_SEARCH_INDEXABLES"
             android:exported="true">
             <intent-filter>
-                <action android:name="android.content.action.SEARCH_INDEXABLES_PROVIDER" />
+                <action android:name="android.content.action.SEARCH_INDEXABLES_PROVIDER" />settings
             </intent-filter>
         </provider>
 
