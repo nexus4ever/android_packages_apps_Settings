@@ -19,7 +19,7 @@
 
         <!-- N4E Logo Header -->
         <PreferenceScreen android:key="n4e_logo"
-            android:layout="@layout/ic_settings_purenexus" />
+            android:layout="@layout/n4e_logo" />
 
         <!-- Changelog -->
         <PreferenceScreen android:key="n4e_changelog"
