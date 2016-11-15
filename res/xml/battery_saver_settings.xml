@@ -26,7 +26,7 @@
             android:summary="%s" />
 
     <!-- Bar color -->
-    <com.nitrogen.settings.preferences.SystemSettingSwitchPreference
+    <com.n4e.settings.preferences.SystemSettingSwitchPreference
             android:key="battery_save_mode_color"
             android:title="@string/battery_saver_color_title"
             android:summary="@string/battery_saver_color_summary"
