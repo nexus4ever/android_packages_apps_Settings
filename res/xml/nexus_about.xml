@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2016 The NeXus4ever Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+
+    <!-- Links -->
+    <PreferenceCategory
+        android:key="useful"
+        android:title="@string/nexus_useful">
+
+        <Preference
+            android:key="updates"
+            android:icon="@drawable/ic_update"
+            android:title="@string/nexus_updates" />
+
+        <Preference
+            android:key="social"
+            android:icon="@drawable/ic_social"
+            android:title="@string/nexus_social" />
+
+        <Preference
+            android:key="donate"
+            android:icon="@drawable/ic_donate"
+            android:title="@string/nexus_donate">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="http://forum.xda-developers.com/donatetome.php?u=5091819" />
+        </Preference>
+
+        <Preference
+            android:key="github"
+            android:icon="@drawable/ic_github"
+            android:title="@string/nexus_github">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://github.com/nexus4ever" />
+        </Preference>
+
+    </PreferenceCategory>
+
+    <!-- Developer -->
+    <PreferenceCategory
+        android:key="developers"
+        android:title="@string/lead_dev">
+
+        <Preference
+            android:key="spezi77"
+            android:icon="@drawable/ic_spz"
+            android:title="@string/spz"
+            android:summary="@string/spz_sum"/>
+
+    </PreferenceCategory>
+
+    <!-- Contributors -->
+    <PreferenceCategory
+        android:key="contributors"
+        android:title="@string/contributors">
+
+        <Preference
+            android:key="dragos281993"
+            android:icon="@drawable/ic_dragos"
+            android:title="@string/dragos"
+            android:summary="@string/dragos_sum"/>
+
+    </PreferenceCategory>
+
+</PreferenceScreen>
+

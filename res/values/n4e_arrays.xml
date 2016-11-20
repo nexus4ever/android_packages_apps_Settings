@@ -257,4 +257,26 @@
         <item>4500</item>
         <item>5000</item>
     </string-array>
+
+    <!-- update notifications -->
+    <string-array name="update_entries">
+        <item>@string/gplus_collection</item>
+    </string-array>
+
+    <!-- social media -->
+    <string-array name="social_entries">
+        <item>@string/gplus_community</item>
+        <item>@string/xda</item>
+    </string-array>
+
+    <!-- spezi profiles -->
+    <string-array name="spz_entries">
+        <item>@string/xda</item>
+    </string-array>
+
+    <!-- dragos profiles -->
+    <string-array name="dragos_entries">
+        <item>@string/xda</item>
+    </string-array>
+
 </resources>

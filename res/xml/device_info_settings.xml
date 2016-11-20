@@ -19,6 +19,8 @@
 
         <!-- N4E Logo Header -->
         <PreferenceScreen android:key="n4e_logo"
+            android:enabled="false"
+            android:shouldDisableView="false"
             android:layout="@layout/n4e_logo" />
 
         <!-- Changelog -->
@@ -26,6 +28,13 @@
             android:title="@string/changelog_title"
             android:summary="@string/changelog_summary"
             android:fragment="com.android.settings.n4e.Changelog" />
+
+        <!-- N4E about -->
+        <PreferenceScreen
+            android:key="about_nexus"
+            android:fragment="com.android.settings.n4e.About"
+            android:title="@string/nexus_about"
+            android:summary="@string/nexus_about_summary" />
 
         <!-- Device status - launches activity -->
         <PreferenceScreen android:key="status_info"

@@ -36,6 +36,38 @@
     <string name="build_date_default">2014-01-01-0000</string>
     <!-- Model Name -->
     <string name="model_name">Model name</string>
+    <!-- NeXus4ever about -->
+    <string name="nexus_about">NeXus4ever info</string>
+    <string name="nexus_about_summary">Updates, useful links, developers and contributors</string>
+    <string name="nexus_useful">Useful links</string>
+    <!-- update notifications -->
+    <string name="nexus_updates">NeXus4ever update notifications</string>
+    <string name="update_dialog">Pick your notification service</string>
+    <string name="gplus_collection">Google+ collection</string>
+    <!-- social media -->
+    <string name="nexus_social">NeXus4ever on social media</string>
+    <string name="social_dialog">Follow NeXus4ever on social media</string>
+    <string name="gplus_community">Google+ community</string>
+    <!-- github -->
+    <string name="nexus_github">NeXus4ever GitHub Source</string>
+    <!-- donations -->
+    <string name="nexus_donate">Donate to support development</string>
+    <!-- developer/contributors -->
+    <string name="lead_dev">Lead Developer</string>
+    <string name="contributors">Team members</string>
+    <!-- spezi -->
+    <string name="spz">spezi77</string>
+    <string name="spz_sum">NeXus4ever Project Owner/maintainer</string>
+    <string name="spz_dialog">Follow spezi77</string>
+    <!-- dragos -->
+    <string name="dragos">dragos281993</string>
+    <string name="dragos_sum">Developer</string>
+    <string name="dragos_dialog">Follow dragos281993</string>
+    <!-- possible profiles -->
+    <string name="gplus">Google+</string>
+    <string name="play_store">Play store</string>
+    <string name="twitter">Twitter</string>
+    <string name="xda">XDA-Developers</string>
 
     <!-- Development Settings -->
     <!-- Dev Options Enabled by Default -->
