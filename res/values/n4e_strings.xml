@@ -22,10 +22,16 @@
 
     <!-- N4E Settings -->
     <string name="n4e_settings_title">Personalization</string>
+    <string name="n4e_settings_summary">Additional Settings</string>
     <string name="header_category_n4e">NeXus4ever Settings</string>
     <string name="performance_settings_title">Performance Settings</string>
+    <string name="performance_settings_summary">Access Kernel Parameters</string>
+
+    <string name="appops_settings_summary">Apps Permissions</string>
+
     <string name="supersu_title">SuperSU</string>
     <string name="superuser_title">Superuser</string>
+    <string name="superuser_settings_summary">Root Access</string>
 
 <!-- Device Info Settings -->
     <!-- Nexus version -->

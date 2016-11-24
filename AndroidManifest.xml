@@ -968,8 +968,8 @@
                 android:value="com.android.settings.category.n4e" />
             <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
                 android:value="com.n4e.settings.PureSettings" />
-            <meta-data android:name="com.android.settings.PRIMARY_PROFILE_CONTROLLED"
-                android:value="true" />
+            <meta-data android:name="com.android.settings.summary"
+                android:resource="@string/n4e_settings_summary" />
         </activity>
 
         <activity android:name="Settings$DisplaySettingsActivity"
@@ -1299,8 +1299,8 @@
                 android:value="com.android.settings.category.n4e" />
             <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
                 android:value="com.android.settings.applications.AppOpsSummary" />
-            <meta-data android:name="com.android.settings.PRIMARY_PROFILE_CONTROLLED"
-                android:value="true" />
+            <meta-data android:name="com.android.settings.summary"
+                android:resource="@string/appops_settings_summary" />
         </activity>
 
         <activity android:name="Settings$BackgroundCheckSummaryActivity"
@@ -2780,6 +2780,8 @@
                 android:value="com.android.settings.category.n4e" />
             <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
                 android:value="com.android.settings.PerformanceSettings" />
+            <meta-data android:name="com.android.settings.summary"
+                android:resource="@string/performance_settings_summary" />
         </activity>
 
         <activity android:name="Settings$SuperUserActivity"
@@ -2799,8 +2801,8 @@
                 android:value="com.android.settings.category.n4e" />
             <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
                 android:value="com.android.settings.SuperUser" />
-            <meta-data android:name="com.android.settings.PRIMARY_PROFILE_CONTROLLED"
-                android:value="true" />
+            <meta-data android:name="com.android.settings.summary"
+                android:resource="@string/superuser_settings_summary" />
         </activity>
 
         <activity android:name="Settings$SuperSUActivity"
@@ -2820,8 +2822,8 @@
                 android:value="com.android.settings.category.n4e" />
             <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
                 android:value="com.android.settings.SuperSU" />
-            <meta-data android:name="com.android.settings.PRIMARY_PROFILE_CONTROLLED"
-                android:value="true" />
+            <meta-data android:name="com.android.settings.summary"
+                android:resource="@string/superuser_settings_summary" />
         </activity>
 
         <receiver android:name=".widget.SettingsAppWidgetProvider"
