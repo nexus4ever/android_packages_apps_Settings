@@ -75,6 +75,12 @@
             android:title="@string/dragos"
             android:summary="@string/dragos_sum"/>
 
+        <Preference
+            android:key="nitin.chobhe"
+            android:icon="@drawable/ic_nitin"
+            android:title="@string/nitin"
+            android:summary="@string/nitin_sum"/>
+
     </PreferenceCategory>
 
 </PreferenceScreen>

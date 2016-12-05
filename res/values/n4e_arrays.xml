@@ -279,4 +279,9 @@
         <item>@string/xda</item>
     </string-array>
 
+    <!-- nitin profiles -->
+    <string-array name="nitin_entries">
+        <item>@string/xda</item>
+    </string-array>
+
 </resources>

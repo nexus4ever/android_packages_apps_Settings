@@ -63,6 +63,10 @@
     <string name="dragos">dragos281993</string>
     <string name="dragos_sum">Developer</string>
     <string name="dragos_dialog">Follow dragos281993</string>
+    <!-- nitin -->
+    <string name="nitin">nitin.chobhe</string>
+    <string name="nitin_sum">Developer</string>
+    <string name="nitin_dialog">Follow nitin.chobhe</string>
     <!-- possible profiles -->
     <string name="gplus">Google+</string>
     <string name="play_store">Play store</string>
