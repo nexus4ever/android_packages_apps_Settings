@@ -23,6 +23,7 @@
 		<ImageView android:layout_width="625dp"
 			android:layout_height="100dp"
 			android:src="@drawable/nexus4ever"
+			android:tint="@*android:color/primary_text_material_dark"
 			android:scaleType="centerInside"
 			android:adjustViewBounds="true" />
    
