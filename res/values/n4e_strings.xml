@@ -36,6 +36,8 @@
     <string name="substratum_title">Substratum</string>
     <string name="substratum_summary">Customize device theme</string>
 
+    <string name="headsup_settings_title">Heads up</string>
+
 <!-- Device Info Settings -->
     <!-- Nexus version -->
     <string name="nexus_version">NeXus4ever version</string>
