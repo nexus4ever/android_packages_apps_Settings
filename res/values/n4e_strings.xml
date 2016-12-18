@@ -238,9 +238,6 @@
     <string name="volume_steps_7" translatable="false">7</string>
     <string name="volume_steps_5" translatable="false">5</string>
 
-    <!-- Navigation -->
-    <string name="navigation_category">Navigation</string>
-
     <!-- Notification sound timeout -->
     <string name="app_notification_sound_timeout_title">Minimum time between notification sounds</string>
     <string name="app_notification_sound_timeout_summary_template">Allow sounds or vibration no more than once every <xliff:g id="duration">%1$s</xliff:g></string>

@@ -137,11 +137,6 @@ import com.n4e.settings.PureSettings;
 import com.n4e.settings.fragments.HeadsUpSettings;
 
 import java.net.URISyntaxException;
-import com.n4e.settings.fragments.FlingSettings;
-import com.n4e.settings.fragments.NavbarSettings;
-import com.n4e.settings.fragments.SmartbarSettings;
-import com.n4e.settings.fragments.PulseSettings;
-
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Set;
@@ -375,10 +370,6 @@ public class SettingsActivity extends SettingsDrawerActivity
             WifiInfo.class.getName(),
             MasterClear.class.getName(),
             NightDisplaySettings.class.getName(),
-            NavbarSettings.class.getName(),
-            FlingSettings.class.getName(),
-            SmartbarSettings.class.getName(),
-            PulseSettings.class.getName(),
             ManageDomainUrls.class.getName(),
             AutomaticStorageManagerSettings.class.getName(),
             HeadsUpSettings.class.getName(),
