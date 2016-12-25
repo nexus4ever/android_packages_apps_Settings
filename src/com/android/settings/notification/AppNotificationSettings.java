@@ -112,7 +112,7 @@ public class AppNotificationSettings extends NotificationSettingsBase {
 
         if (getPreferenceScreen().findPreference(mBlock.getKey()) != null) {
             setVisible(mSilent, checkCanBeVisible(Ranking.IMPORTANCE_MIN, importance));
-            mSilent.setChecked(importance == Ranking.IMPORTANCE_LOW || importance == Ranking.IMPORTANCE_VERY_LOW);
+            mSilent.setChecked(importance == Ranking.IMPORTANCE_LOW);
         }
         setVisible(mPriority, checkCanBeVisible(Ranking.IMPORTANCE_DEFAULT, importance)
                 || (checkCanBeVisible(Ranking.IMPORTANCE_LOW, importance)
@@ -125,8 +125,6 @@ public class AppNotificationSettings extends NotificationSettingsBase {
         if (importance == Ranking.IMPORTANCE_UNSPECIFIED) {
             return true;
         }
-        if (importance == Ranking.IMPORTANCE_VERY_LOW)
-          importance = Ranking.IMPORTANCE_LOW;
         return importance >= minImportanceVisible;
     }
 
