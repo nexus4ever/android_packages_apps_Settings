@@ -172,11 +172,11 @@ abstract public class NotificationSettingsBase extends SettingsPreferenceFragmen
             mImportance.setAutoOn(importance == Ranking.IMPORTANCE_UNSPECIFIED);
             mImportance.setCallback(new ImportanceSeekBarPreference.Callback() {
                 @Override
-                public void onImportanceChanged(int progress, boolean fromUser) {
+                public void onImportanceChanged(int importance, boolean fromUser) {
                     if (fromUser) {
-                        mBackend.setImportance(mPkg, mUid, progress);
+                        mBackend.setImportance(mPkg, mUid, importance);
                     }
-                    updateDependents(progress);
+                    updateDependents(importance);
                 }
             });
         } else {
